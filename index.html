@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='FirstApp'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS bin</title>
+</head>
+<body>
+
+
+  <main ng-view></main>
+
+  <footer ng-include="'footer.html'"></footer>
+
+
+  <script src="https://code.angularjs.org/1.6.2/angular.min.js" charset="utf-8"></script>
+  <script src="https://code.angularjs.org/1.6.2/angular-route.min.js" charset="utf-8"></script>
+  <script src="https://code.angularjs.org/1.6.2/angular-animate.min.js" charset="utf-8"></script>
+  <script src="./app.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./reset.css">
+  <script src="controllers/viewfriends.js" charset="utf-8"></script>
+  <script src="controllers/updatecontroller.js" charset="utf-8"></script>
+  <script src="controllers/findfriendscontrollers.js" charset="utf-8"></script>
+</body>
+</html>

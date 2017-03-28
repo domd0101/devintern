@@ -1,0 +1,153 @@
+.menu-bar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  border-top: 1px solid lightgrey;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.menu-bar a{
+  color: grey;
+}
+
+.head{
+  padding: 20px;
+  font-size: 50px;
+  display:flex;
+  justify-content: center;
+}
+.header{
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid lightgray;
+}
+.info{
+  display: flex;
+  /*border: 2px solid red;*/
+  width: 90%;
+  height: 470px;
+  text-align: center;
+  margin-left: 5%;
+}
+.leftside{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+.top1{
+  margin-left: 22%;
+  font-size: 60px;
+  text-align: left;
+}
+.top2{
+  margin-right: 22%;
+  font-size: 60px;
+  text-align: right;
+}
+.top3{
+  margin: 10px;
+  font-size: 20px;
+}
+.para{
+  margin: 20px 40px 10px 40px;
+  font-size: 14px;
+}
+
+
+
+
+.rightside{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+.top{
+  padding: 4px;
+  font-size: 25px;
+}
+.stuff{
+  height:10%;
+  font-size: 20px;
+}
+.stuff1{
+  height:40%;
+  font-size: 20px;
+}
+.stuff2{
+  height:10%;
+  font-size: 20px;
+  background: white;
+  width: 100%;
+  border: none;
+}
+.shade{
+  /*border: 1px outset lightgrey;*/
+  margin: 10px;
+  box-shadow: -1px 2px 5px 2px  lightgrey;
+}
+.shade1{
+  padding: 15px;
+  margin: 10px;
+  height:60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*border: 1px outset lightgrey;*/
+  box-shadow: -1px 2px 5px 2px  lightgrey;
+}
+.rightside2{
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pics{
+  display: flex;
+  width: 43%;
+  height: 28%;
+}
+.bgi{
+  background-position: center;
+  background-size: cover;
+}
+.friendsbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  margin:2%;
+  box-shadow: -1px 2px 5px 2px  lightgrey;
+  height: 6%;
+  width: 95%
+}
+.abox{
+  padding: 2px;
+  font-size: 12px;
+  border: 1px solid black;
+}
+.one{
+  flex:.05;
+}
+.two{
+  flex:.95;
+  border-left: 1px solid black;
+}
+
+
+
+
+
+
+
+
+/*+++++++++END++++++++*/
